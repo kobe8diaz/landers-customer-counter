@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="interface">
+            <img src="landers-logo.png" id="logo-img">
+            <div id="title">
+                <h1>Landers Superstore</h1>
+                <h2>Customer Counter</h2>
+            </div>
+            <div id="output">
+                <h1 id="ppl-entered">People entered:</h1>
+                <h2 id="count-el">0</h2>
+            </div>
+            <div id="increment-save-btns">
+                <button id="increment-btn" onclick="increment()">INCREMENT</button>
+                <button id="save-btn" onclick="save()">SAVE</button>
+            </div>
+            <p id="save-el">Saved tallies: </p>
+            <!-- <button id="total-btn" onclick="total()">TOTAL</button> -->
+            <div id="total">
+                <p id="total-saved-tallies">Total of saved tallies above:</p>
+                <p id="total-el">0</p>
+            </div>
+            <button id="reset-btn" onclick="reset()">RESET</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
