@@ -12,14 +12,18 @@ function increment() {
 
 function save() {
     
-    total += count
-    totalEl.textContent = total
+    if (count != 0) {
+
+        total += count
+        totalEl.textContent = total
     
-    let countStr = count + " - "
-    saveEl.textContent += countStr
+        let countStr = count + " - "
+        saveEl.textContent += countStr
     
-    count = 0
-    countEl.textContent = 0
+        count = 0
+        countEl.textContent = 0
+
+    }
     
 }
 
@@ -32,6 +36,7 @@ function reset() {
     totalEl.textContent = 0
     
     saveEl.textContent = "Saved tallies: "
+    
 }
 
 // TTD:

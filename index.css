@@ -60,8 +60,18 @@ button {
     background: #F6BE00;
 }
 
+#increment-btn:hover {
+    background: #E9B300;
+    cursor: pointer;
+}
+
 #save-btn {
     background: darkgreen;
+}
+
+#save-btn:hover {
+    background: #005400;
+    cursor: pointer;
 }
 
 #save-el {
@@ -102,4 +112,9 @@ button {
 #reset-btn {
     margin: 35px auto 15px auto;
     background: darkred;
+}
+
+#reset-btn:hover {
+    background: #7A0000;
+    cursor: pointer;
 }
